@@ -1,8 +1,11 @@
+import Pratik from './Pratik'
 function App() { 
 
   return (
     <>
-    <h1>Hello World with vite | Pratik</h1>      
+    {/* We can only export only one element. That is called fragment.*/}
+    <Pratik/>
+    <h1>I am a good boy.</h1>    
     </>
   )
 }

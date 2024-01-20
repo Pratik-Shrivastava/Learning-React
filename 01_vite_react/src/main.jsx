@@ -5,5 +5,5 @@ import Pratik from './Pratik.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <Pratik />
+    <App />
 )
