@@ -9,7 +9,19 @@ function App() {
 
   function addValue ()
   {
-    setCount(count+1);
+    // setCount(count+1);
+    // setCount(count+1);
+    // setCount(count+1);
+    // setCount(count+1);
+    // This will not happen because the fibre will send changes to UI in batches
+    // So, these are same operations 
+
+    setCount((preCounter)=>preCounter+1)
+    setCount((preCounter)=>preCounter+1)
+    setCount((preCounter)=>preCounter+1)
+    setCount((preCounter)=>preCounter+1)
+
+
     if(count >= 20)
     {
       setCount(20)
