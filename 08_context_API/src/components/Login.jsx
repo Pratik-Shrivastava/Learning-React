@@ -13,6 +13,7 @@ function Login() {
     {
         // e.stopImmediatePropagation();
         e.preventDefault()
+        // This is can be also done as an alternate
         setUser({username, password})
     }
   return (
